@@ -12,3 +12,7 @@ e così via... */
 const button = document.getElementById('lamp-button')
 
 //console.log(button)
+
+button.addEventListener('click', function(){
+    console.log('working click')
+})
