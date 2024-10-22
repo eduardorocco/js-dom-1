@@ -34,8 +34,18 @@ function toggleDisplay(id) {
 
 button.addEventListener('click', function(){
 
+    if (button.innerText.includes('Accendi')) {
 
+        button.innerText = 'Spegni';
+
+    } else {
+        
+        button.innerText = 'Accendi'
+    }
+    
 
     toggleDisplay('w-lamp')
+    
+    toggleDisplay('y-lamp')
 
 })
