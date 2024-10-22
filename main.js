@@ -34,9 +34,8 @@ function toggleDisplay(id) {
 
 button.addEventListener('click', function(){
 
-    
+
 
     toggleDisplay('w-lamp')
 
-    toggleDisplay('y-lamp')
 })
